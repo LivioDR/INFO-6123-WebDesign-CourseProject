@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            Milanga & Co. Catering Service - Contact Us
+        </title>
+        <link href="../main.css" type="text/css" rel="stylesheet">
+        <link href="../contact.css" type="text/css" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="./favicon.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&family=Kode+Mono:wght@700&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="../resources/logo_square.jpg" alt="Milanga & Co Logo" class="mobileHidden">
+            <img src="../resources/logo_banner.jpg" alt="Milanga & Co Banner" class="desktopHidden">
+            <nav>
+                <ul>
+                    <a href="../index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="./appetizers.html">
+                        <li>Appetizers</li>
+                    </a>
+                    <a href="./maincourses.html">
+                        <li>Main Courses</li>
+                    </a>
+                    <a href="./desserts.html">
+                        <li>Desserts</li>
+                    </a>
+                    <a href="#">
+                        <li>Contact Us</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="mainSection">
+                <h1 id="mainTitle">Tempted already?</h1>
+                <img src="../resources/contact-us/contact-us-banner.avif" id="mainImg" class="mobileHidden" alt="people enjoying a parrillada">
+                <p id="mainParagraph">Ready to elevate your next event with the flavors of Argentina? We'd love to hear from you! Whether you're planning a wedding, corporate gathering, or intimate soirée, Milanga & Co is here to make your culinary dreams a reality. Simply fill out the form below to inquire about our catering services, and our dedicated team will be in touch to discuss how we can tailor our offerings to suit your needs. From menu customization to logistics coordination, we're committed to ensuring every detail exceeds your expectations. Get in touch today and let's start planning an unforgettable dining experience together.</p>
+            </section>
+            <section>
+                <!-- <img src="../resources/contactus-side.jpeg" alt="vertical image of emapandas on a plate"> -->
+                <form onsubmit=onSubmit() id="formSection">
+                    <div id="naming">
+                        <label for="firstName">
+                            First Name
+                        </label>
+                        <input id="firstName" required>
+                        <label>
+                            Last Name
+                        </label>
+                        <input id="lastName" required>
+                    </div>
+                    <div id="emailDiv">
+                        <label for="email">
+                            Email
+                        </label>
+                        <input id="email" required>
+                    </div>
+                    <div id="phoneDiv">
+                        <label for="telephone">
+                            Phone Number (optional)
+                        </label>
+                        <input id="phone">
+                    </div>
+                    <button type="reset">Clear form</button>
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>© Copyright 2024 Milanga & Co. <span id="footerSignature">Made with love at Fanshawe College</span></p>
+        </footer>
+        <script>
+            const onSubmit = () => {
+                window.alert('Thank you for your interest. An associate will contact you shortly.')
+            }
+        </script>
+    </body>
+</html>

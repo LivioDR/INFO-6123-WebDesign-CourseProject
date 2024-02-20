@@ -1,0 +1,16 @@
+:root {
+    --headerBack: #b0d9d3;
+    --backBlue: #c8e0dd;
+    --textRed: #fa3e38;
+    --textBlack: #040708;
+    --interFont: 'Inter', 'Helvetica', sans-serif;
+    --kodeFont: 'Kode Mono', 'Courier', monospace;
+}
+
+#formSection {
+    background-image: linear-gradient(rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('./resources/contact-us/contactus-side.jpg');
+    background-size: cover;
+}
+form div label {
+    color: var(--backBlue);
+}
