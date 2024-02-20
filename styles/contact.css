@@ -8,9 +8,87 @@
 }
 
 #formSection {
-    background-image: linear-gradient(rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('./resources/contact-us/contactus-side.jpg');
+    background-image: linear-gradient(rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('../resources/contact-us/contactus-side.jpg');
     background-size: cover;
+    padding: 5% 0% 10% 0%;
 }
 form div label {
     color: var(--backBlue);
+}
+form div {
+    margin: 5% 20%;
+}
+#comments {
+    height: 5em;
+}
+
+/* FORM GRID ORGANIZATION */
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 2fr;
+    grid-template-rows: max-content max-content max-content max-content max-content;
+    row-gap: 10%;
+    margin: 5% 20%;
+    padding: 5% 0% 25% 0%;
+}
+#naming {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+#emailDiv {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+#phoneDiv {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+#commentsDiv {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+#buttonsDiv {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+/* Mobile specific styling */
+@media screen and (max-width: 899px) {
+    label {
+        display: none;
+    }
+    input {
+        width: 100%;
+        height: 3em;
+        border-left-width: 0%;
+        border-right-width: 0%;
+    }
+    #naming > input {
+        margin-bottom: 5%;
+    }
+    form div {
+        margin: 0%;
+    }
+    form {
+        padding: 20% 0%;
+    }
+    #buttonsDiv {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    button {
+        height: 3em;
+        width: 25%;
+    }
 }

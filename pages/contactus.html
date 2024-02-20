@@ -41,35 +41,43 @@
             <section id="mainSection">
                 <h1 id="mainTitle">Tempted already?</h1>
                 <img src="../resources/contact-us/contact-us-banner.avif" id="mainImg" class="mobileHidden" alt="people enjoying a parrillada">
-                <p id="mainParagraph">Ready to elevate your next event with the flavors of Argentina? We'd love to hear from you! Whether you're planning a wedding, corporate gathering, or intimate soirée, Milanga & Co is here to make your culinary dreams a reality. Simply fill out the form below to inquire about our catering services, and our dedicated team will be in touch to discuss how we can tailor our offerings to suit your needs. From menu customization to logistics coordination, we're committed to ensuring every detail exceeds your expectations. Get in touch today and let's start planning an unforgettable dining experience together.</p>
+                <p id="mainParagraph">Ready to elevate your next event with the flavors of Argentina? We'd love to hear from you! Whether you're planning a wedding, corporate gathering, or intimate soirée, Milanga & Co is here to make your culinary dreams a reality.</p>
             </section>
-            <section>
+            <section id="formSection">
                 <!-- <img src="../resources/contactus-side.jpeg" alt="vertical image of emapandas on a plate"> -->
-                <form onsubmit=onSubmit() id="formSection">
+                <form onsubmit=onSubmit()>
                     <div id="naming">
                         <label for="firstName">
                             First Name
                         </label>
-                        <input id="firstName" required>
+                        <input id="firstName" placeholder='First name' required>
                         <label>
                             Last Name
                         </label>
-                        <input id="lastName" required>
+                        <input id="lastName" placeholder="Last name" required>
                     </div>
                     <div id="emailDiv">
                         <label for="email">
                             Email
                         </label>
-                        <input id="email" required>
+                        <input id="email" placeholder="Email" required>
                     </div>
                     <div id="phoneDiv">
                         <label for="telephone">
                             Phone Number (optional)
                         </label>
-                        <input id="phone">
+                        <input id="phone" placeholder="Phone number">
                     </div>
-                    <button type="reset">Clear form</button>
-                    <button type="submit">Submit</button>
+                    <div id="commentsDiv">
+                        <label for="comments">
+                            What can we do for you?
+                        </label>
+                        <input type="textarea" rows="5" id="comments" placeholder="What can we do for you?">
+                    </div>
+                    <div id="buttonsDiv">
+                        <button type="reset">Clear form</button>
+                        <button type="submit">Submit</button>
+                    </div>
                 </form>
             </section>
         </main>
