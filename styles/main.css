@@ -6,7 +6,6 @@
     --interFont: 'Inter', 'Helvetica', sans-serif;
     --kodeFont: 'Kode Mono', 'Courier', monospace;
 }
-
 * {
     margin: 0%;
     padding: 0%;
@@ -14,6 +13,7 @@
 }
 body {
     background-color: var(--backBlue);
+    min-width: 400px;
 }
 header {
     background-color: var(--headerBack);

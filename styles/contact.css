@@ -6,9 +6,6 @@
     --interFont: 'Inter', 'Helvetica', sans-serif;
     --kodeFont: 'Kode Mono', 'Courier', monospace;
 }
-body {
-    min-width: 400px;
-}
 #formSection {
     background-image: linear-gradient(rgba(0,0,0,0.5) 50%, rgba(0,0,0,0.5) 50%), url('../resources/contact-us/contactus-side.jpg');
     background-size: cover;
