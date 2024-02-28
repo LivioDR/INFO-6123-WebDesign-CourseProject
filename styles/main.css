@@ -42,7 +42,7 @@ section > p {
     margin: 2% 10% 5% 10%;
     text-align: justify;
 }
-section > img {
+section img {
     aspect-ratio: 16/9;
     object-fit: cover;
 }
