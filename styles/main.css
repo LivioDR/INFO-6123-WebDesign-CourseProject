@@ -41,7 +41,10 @@ section > h1 {
 section > p {
     margin: 2% 10% 5% 10%;
     text-align: justify;
-
+}
+section img {
+    aspect-ratio: 16/9;
+    object-fit: cover;
 }
 footer {
     color: var(--backBlue);
@@ -99,10 +102,17 @@ footer > p {
     section {
         border-bottom: 3px solid var(--textBlack);
     }
-    #mainSection {
+    #mainSectionHomepage {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 50% 50%;
+        grid-template-areas: "title image" "parag image";
+        margin: 0%;
+    }
+    #mainSection {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 30% 70%;
         grid-template-areas: "title image" "parag image";
         margin: 0%;
     }
