@@ -117,13 +117,6 @@ footer > p {
     section {
         border-bottom: 3px solid var(--textBlack);
     }
-    #mainSectionHomepage {
-        display: grid;
-        grid-template-columns: 1fr 2fr;
-        grid-template-rows: 25% 75%;
-        grid-template-areas: "title image" "parag image";
-        margin: 0%;
-    }
     #mainSectionIndex {
         display: grid;
         grid-template-columns: 1fr 2fr;
