@@ -41,10 +41,9 @@
             <section id="mainSection">
                 <h1 id="mainTitle">Tempted already?</h1>
                 <img src="../resources/contact-us/contact-us-banner.avif" id="mainImg" class="mobileHidden" alt="people enjoying a parrillada">
-                <p id="mainParagraph">Ready to elevate your next event with the flavors of Argentina? We'd love to hear from you! Whether you're planning a wedding, corporate gathering, or intimate soirée, Milanga & Co is here to make your culinary dreams a reality.</p>
+                <p id="mainParagraph">Ready to elevate your next event with the flavors of Argentina? We'd love to hear from you! Whether you're planning a wedding, corporate gathering, or intimate soirée, Milanga & Co is here to make your culinary dreams a reality.<br>Simply fill out the form below to inquire about our catering services, and our dedicated team will be in touch to discuss how we can tailor our offerings to suit your needs.</p>
             </section>
             <section id="formSection">
-                <!-- <img src="../resources/contactus-side.jpeg" alt="vertical image of emapandas on a plate"> -->
                 <form onsubmit=onSubmit()>
                     <div id="naming">
                         <label for="firstName">
@@ -64,15 +63,15 @@
                     </div>
                     <div id="phoneDiv">
                         <label for="telephone">
-                            Phone Number (optional)
+                            Phone Number (example: 555-123-4567)
                         </label>
-                        <input id="phone" placeholder="Phone number">
+                        <input id="phone" placeholder="Phone number" pattern="[0-9]{3}-*[0-9]{3}-*[0-9]{4}" required>
                     </div>
                     <div id="commentsDiv">
                         <label for="comments">
                             What can we do for you?
                         </label>
-                        <textarea rows="5" cols="50" wrap="hard" id="comments" placeholder="What can we do for you?" required></textarea>
+                        <textarea rows="5" cols="50" wrap="hard" id="comments" placeholder="Please enter your request..." required></textarea>
                     </div>
                     <div id="buttonsDiv">
                         <button type="reset">Clear form</button>

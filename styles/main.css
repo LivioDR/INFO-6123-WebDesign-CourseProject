@@ -67,12 +67,21 @@ footer > p {
         border-bottom: 1px solid var(--textBlack);
     }
 }
+
+/* DESKTOP SPECIFIC STYLING */
 @media screen and (min-width: 900px) {
     .desktopHidden {
       display: none;
     }
     body {
         min-width: 1200px;
+    }
+    p {
+        font-size: 120%;
+        line-height: 2vw;
+    }
+    #mainSection p {
+        font-size: 100%;
     }
     header {
         display: flex;
@@ -93,16 +102,29 @@ footer > p {
         flex-direction: row;
         justify-content: space-around;
     }
+    nav > ul {
+        height: 3em;
+    }
     nav > ul > a > li {
         font-size: large;
         font-weight: bold;
         width: 100%;
-        padding-bottom: 20%;
+        padding-top: 0%;
+        padding-bottom: 0%;
+        margin-top: 0%;
+        margin-bottom: 0%;
     }
     section {
         border-bottom: 3px solid var(--textBlack);
     }
     #mainSection {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 25% 75%;
+        grid-template-areas: "title image" "parag image";
+        margin: 0%;
+    }
+    #mainSectionIndex {
         display: grid;
         grid-template-columns: 1fr 2fr;
         grid-template-rows: 50% 50%;
