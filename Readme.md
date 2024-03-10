@@ -1,27 +1,27 @@
-# Appendix A - README File Instructions
-#### Please include a README file in your GitHub repository that answers the following questions:
-[x] If you worked in a group, list the full name of each group member as it appears in Fanshawe Online. If you
-worked alone, include your name as it appears on Fanshawe Online.
-[x] If you worked in a group, please include a brief summary of what each group member worked on.
-[ ] Briefly explain how design principles such as proximity, contrast, typography, etc. are considered in your
-website’s design.
-[ ] Briefly explain what strategy or strategies were used to improve your website’s accessibility compliance.
-[ ] Briefly explain what search engine optimization strategy or strategies were used in your website.
-
 # Course Project - INFO-6123 - Web Design
 ### Livio Reinoso - ID 1165606
 ---
 ## Design principles
-- Used grid for the layout of the main image-text block on each page header.
-- Use of flex-boxes for every other paragraph to adjust the text and images. Added classes to shift the images and text positioning from one side to the other.
-- Applied the aspect-ratio property to avoid CLS by reserving the place for images while they load.
-- Added a dynamical line-height to manage the whitespace on different browser resolutions.
+- Designed with a mobile-first approach and used CSS Media queries to change the layout for different screen sizes.
 - Shared css-styles through a main reusable styles file.
 - Additional form-specific styling was applied through an additional css file.
+- Some images are displayed or not depending on the screen size for easier navigation and reading of the website content.
+- Choosed the use of sans serif typefaces based on the competitor's websites to align with the industry branding choices.
+- Added a monospace font for the footer section to differentiate it form the main content.
+- The added typefaces are webfonts, with fallback common system fonts options.
+- Relative units were used whenever possible to make the website compatible with different browser and screen resolutions.
+- *min-width* property was used on some components to avoid text from overflowing and/or the need of scrollbars on small paragraphs.
+- Used grid for the layout of the main image-text block on each page header.
+- Use of flex-boxes for every other paragraph to adjust the text and images. Added classes to shift the images and text positioning from one side to the other.
+- Kept the golden ration in mind when sizing the images and the paragraph linked to them.
+- Applied the aspect-ratio property to avoid CLS by reserving the place for images while they load.
+- Added a dynamical line-height to manage the whitespace on different browser resolutions.
 ---
 ## Accessibility strategies
-- Added alt properties to all images.
-- Used colors from opposite ends of the spectrum to help with color-blinded compatibility.
+- Added alt properties to all images to help blind-users and screen-reader users navigate the content.
+- Created descriptive urls to offer context to visually-impaired users that use screen readers.
+- Used colors from opposite ends of the spectrum to help with color-blinded compatibility. Tested on the rendering module in developer tools of the browser.
+- Applied labels to all input fields in the contact-us form instead of relying only on placeholder text that has low contrast.
 ---
 ## SEO strategies
 - Use of a brief and descriptive title tag.
