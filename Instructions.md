@@ -31,18 +31,15 @@
 - [x] Since we are practicing writing our own CSS code, do not use any CSS libraries or frameworks for this project.
 - [x] Your website should be unique. Don’t just copy and paste an example from this course. Get creative and experiment with creating layouts.
 - [x] Any layout strategy can be used – floats, grids, flexbox, etc.
-- [-] If you would like to work in a group but are having a hard time finding one, email me with your idea for your website and I can send a group email to the class to try to help you find a team.
+- [x] ~~If you would like to work in a group but are having a hard time finding one, email me with your idea for your website and I can send a group email to the class to try to help you find a team.~~
 ---
 ## Submission Instructions
-- [-] I will be accessing your code for grading through the GitHub repository & submissions folder. If you have
-difficulty with GitHub, there is a submission folder open on FOL for you to submit your solution (-3 points). If you
-are working in a group, only one person from the group needs to submit the project but be sure to include a text
-file with everyone’s name.
+- [x] I will be accessing your code for grading through the GitHub repository & submissions folder. ~~If you have difficulty with GitHub, there is a submission folder open on FOL for you to submit your solution (-3 points). If you are working in a group, only one person from the group needs to submit the project but be sure to include a text file with everyone’s name.~~
 - [ ] If you publish your solution to GitHub, you still need to submit your solution to the submission Dropbox.
 # Appendix A - README File Instructions
 #### Please include a README file in your GitHub repository that answers the following questions:
-- [-] If you worked in a group, list the full name of each group member as it appears in Fanshawe Online. If you worked alone, include your name as it appears on Fanshawe Online.
-- [-] If you worked in a group, please include a brief summary of what each group member worked on.
+- [x] ~~If you worked in a group, list the full name of each group member as it appears in Fanshawe Online.~~ If you worked alone, include your name as it appears on Fanshawe Online.
+- [x] ~~If you worked in a group, please include a brief summary of what each group member worked on.~~
 - [x] Briefly explain how design principles such as proximity, contrast, typography, etc. are considered in your website’s design.
 - [x] Briefly explain what strategy or strategies were used to improve your website’s accessibility compliance.
-- [x] Briefly explain what search engine optimization strategy or strategies were used in your website.
+- [ ] Briefly explain what search engine optimization strategy or strategies were used in your website.
