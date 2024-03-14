@@ -18,7 +18,7 @@ input {
     background-color: var(--backBlue);
 }
 button {
-    background-color: var(--buttonBack);
+    background-color: var(--headerBack);
     color: var(--textRed);
     font-weight: bold;
     border-radius: 5px;

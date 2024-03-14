@@ -3,7 +3,6 @@
     --backBlue: #c8e0dd;
     --textRed: #fa3e38;
     --textBlack: #040708;
-    --buttonBack: #1D3461;
     --interFont: 'Inter', 'Helvetica', sans-serif;
     --kodeFont: 'Kode Mono', 'Courier', monospace;
 }
@@ -117,6 +116,9 @@ footer > p {
     }
     section {
         border-bottom: 3px solid var(--textBlack);
+    }
+    #mainSectionIndex img, #mainSection img {
+        mask-image: linear-gradient(to left,black 60%,transparent 95%);
     }
     #mainSectionIndex {
         display: grid;
