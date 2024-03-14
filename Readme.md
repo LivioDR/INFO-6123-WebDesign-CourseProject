@@ -19,7 +19,9 @@
 ---
 ## Accessibility strategies
 - Added alt properties to all images to help blind-users and screen-reader users navigate the content.
+- Added the language tag to all html pages to make sure content readers interpret the words the right way.
 - Created descriptive urls to offer context to visually-impaired users that use screen readers.
+- Added tabindexes to paragraphs to help with keyboard navigation.
 - Used colors from opposite ends of the spectrum to help with color-blinded compatibility. Tested on the rendering module in developer tools of the browser.
 - Applied labels to all input fields in the contact-us form instead of relying only on placeholder text that has low contrast.
 ---
