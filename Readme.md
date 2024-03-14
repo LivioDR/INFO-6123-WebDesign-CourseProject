@@ -9,6 +9,7 @@
 - Choosed the use of sans serif typefaces based on the competitor's websites to align with the industry branding choices.
 - Added a monospace font for the footer section to differentiate it form the main content.
 - The added typefaces are webfonts, with fallback common system fonts options.
+- Used variables for colors and fonts for an easier website modification/maintenance as needed.
 - Relative units were used whenever possible to make the website compatible with different browser and screen resolutions.
 - *min-width* property was used on some components to avoid text from overflowing and/or the need of scrollbars on small paragraphs.
 - Used grid for the layout of the main image-text block on each page header.
