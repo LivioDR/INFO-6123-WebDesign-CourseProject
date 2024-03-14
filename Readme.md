@@ -26,9 +26,12 @@
 - Applied labels to all input fields in the contact-us form instead of relying only on placeholder text that has low contrast.
 ---
 ## SEO strategies
-- Use of a brief and descriptive title tag.
-- Added a meta description tag to the main page.
+- Use of a brief and descriptive title tag for each page.
+- Added a customized meta description tag to every page.
+- Added a keywords meta tag to every page with keywords related to the page content.
+- Selected a list of keywords from both high and low-competition lists to ensure page visibility and competitivity. These keywords were searched through the use of GoogleAds Keyword Planner.
 - Kept paragraphs short enough for the search engines to process them easily.
+- Included keywords into the paragraphs.
 - Added alt properties to all images.
 ---
 ## Image references

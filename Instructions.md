@@ -18,13 +18,13 @@
 - [x] You must apply at least one additional accessibility compliance strategy that was covered in this course. You should be able to identify how you considered accessibility when developing your website.
 ---
 ### Search Engine Optimization
-- [ ] Your website should be optimized for search engines. Use strategies covered in this course or others that you research. You should be able to identify how you optimized your website for search engines.
+- [x] Your website should be optimized for search engines. Use strategies covered in this course or others that you research. You should be able to identify how you optimized your website for search engines.
 ---
 ### Source Control
 - [x] Whether you decide to work alone or in a group, you must use source control while working on your project.
 - [x] You must create a PRIVATE repository on GitHub to host your source code. You must invite me to your private repository so that I may access your solution for grading. Please invite me by email at ssaksha@fanshaweonline.ca
 - [x] Your repository should show the commit history of the project as it was developed from start to finish. Don’t just commit a finalized solution. This is your opportunity to practice using source control effectively.
-- [ ] You must include a README file in your repository that answers the questions in Appendix A of this document
+- [x] You must include a README file in your repository that answers the questions in Appendix A of this document
 ---
 ### Other
 - [x] All content produced must be original. Do not use WordPress or other template sites.
