@@ -118,7 +118,10 @@ footer > p {
         border-bottom: 3px solid var(--textBlack);
     }
     #mainSectionIndex img, #mainSection img {
-        mask-image: linear-gradient(to left,black 60%,transparent 95%);
+        mask-image: linear-gradient(to left,black 60%,transparent 90%);
+    }
+    #mainSectionIndex p, #mainSection p, #mainSectionIndex h1, #mainSection h1 {
+        margin: 0% 0% 0% 20%;
     }
     #mainSectionIndex {
         display: grid;
